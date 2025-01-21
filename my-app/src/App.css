@@ -84,18 +84,3 @@
   font-size: 1.7rem;
   font-weight: 400;
 }
-
-/*---Cards---*/
-.plantas{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.planta{
-  width: 50%;
-  background-color: var(--color-dark_green);
-}

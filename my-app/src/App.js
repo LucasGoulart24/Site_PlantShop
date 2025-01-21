@@ -1,6 +1,5 @@
 import logo from './Img/logo.png';
 import carrinho from './Img/carrinho.png';
-import Cards from './Components/cards';
 import './App.css';
 
 function App() {
@@ -22,9 +21,7 @@ function App() {
       <div className='titulo'>
         <h2>Produtos</h2>
       </div>
-      <div className='plantas'>
-        <Cards></Cards>
-      </div>
+      <div className='plantas'></div>
     </div>
   );
 }
