@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*---Cores---*/
+:root{
+  --color-white: #ffffff;
+  --color-green: #49CF52;
+  --color-dark_green: #3FB747;
+}
+
+/*---Menu---*/
+.menu{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/*---Logo---*/
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+}
+
+.logo h3{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+/*---Compra---*/
+.compra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+
+.compra img{
+  width: 40px;
+  height: 40px;
+}
+
+/*---Banner---*/
+.banner{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner h1{
+  font-size: 5rem;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+/*---Titulo---*/
+.titulo{
+  width: 100%;
+  padding: 10px;
+}
+
+.titulo h2{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+/*---Cards---*/
+.plantas{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.planta{
+  width: 50%;
+  background-color: var(--color-dark_green);
+}
