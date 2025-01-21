@@ -78,6 +78,9 @@ function App() {
           <button>Comprar</button>
         </div>
       </div>
+      <div className='copyright'>
+        <h3>&copy;2025 - PlantShop</h3>
+      </div>
     </div>
   );
 }

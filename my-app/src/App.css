@@ -117,6 +117,7 @@
 }
 
 .planta button{
+  width: 100%;
   padding: 10px 50px;
   border: none;
   outline: none;
@@ -129,4 +130,33 @@
 
 .planta button:hover{
   background-color: var(--color-dark_green);
+}
+
+/*---Copyright---*/
+.copyright{
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-green);
+}
+
+.copyright h3{
+  font-weight: 400;
+}
+
+/*---Responsividade---*/
+@media screen and (max-width: 768px) {
+  .banner{
+    height: 30vh;
+  }
+
+  .banner h1{
+    font-size: 2rem;
+  }
+
+  .planta{
+    width: 90%;
+  }
 }
