@@ -133,6 +133,90 @@
   background-color: var(--color-dark_green);
 }
 
+/*---Contato---*/
+.contato{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Img/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--color-white);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.card h2{
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.card button{
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: var(--color-green);
+  transition-duration: 0.5s;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.card button:hover{
+  background-color: var(--color-dark_green);
+}
+
+/*---Info---*/
+.info{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info input{
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 10px;
+  background-color: var(--color-gray);
+}
+
+.info input::placeholder{
+  color: black;
+}
+
+.info p{
+  margin-left: -83%;
+}
+
+.info textarea{
+  width: 100%;
+  height: 20vh;
+  border: none;
+  outline: none;
+  background-color: var(--color-gray);
+}
+
 /*---Copyright---*/
 .copyright{
   width: 100%;
@@ -159,5 +243,14 @@
 
   .planta{
     width: 90%;
+  }
+
+  .card{
+    width: 93%;
+    padding: 10px 15px;
+  }
+
+  .info p{
+    margin-left: -77%;
   }
 }

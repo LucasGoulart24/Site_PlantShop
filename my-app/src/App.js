@@ -78,6 +78,18 @@ function App() {
           <button>Comprar</button>
         </div>
       </div>
+      <div className='contato'>
+        <div className='card'>
+          <h2>Contato</h2>
+          <div className='info'>
+            <input type='text' placeholder='Nome completo'></input>
+            <input type='email' placeholder='Email'></input>
+            <p>Mensagem</p>
+            <textarea></textarea>
+          </div>
+          <button>Enviar</button>
+        </div>
+      </div>
       <div className='copyright'>
         <h3>&copy;2025 - PlantShop</h3>
       </div>
