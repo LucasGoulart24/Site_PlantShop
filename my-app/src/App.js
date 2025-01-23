@@ -1,6 +1,6 @@
 import logo from './Img/logo.png';
 import carrinho from './Img/carrinho.png';
-import planta from './Img/planta.jpg';
+import planta from './Img/planta_monstera.jpeg';
 import './App.css';
 
 function App() {
@@ -25,55 +25,55 @@ function App() {
       <div className='plantas'>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
         <div className='planta'>
           <img src={planta} alt='planta'></img>
-          <h3>Planta</h3>
+          <h3>Planta Monstera</h3>
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
