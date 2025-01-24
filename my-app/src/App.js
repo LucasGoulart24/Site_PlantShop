@@ -77,6 +77,24 @@ function App() {
           <h4>R$: 99,00</h4>
           <button>Comprar</button>
         </div>
+        <div className='planta'>
+          <img src={planta} alt='planta'></img>
+          <h3>Planta Monstera</h3>
+          <h4>R$: 99,00</h4>
+          <button>Comprar</button>
+        </div>
+        <div className='planta'>
+          <img src={planta} alt='planta'></img>
+          <h3>Planta Monstera</h3>
+          <h4>R$: 99,00</h4>
+          <button>Comprar</button>
+        </div>
+        <div className='planta'>
+          <img src={planta} alt='planta'></img>
+          <h3>Planta Monstera</h3>
+          <h4>R$: 99,00</h4>
+          <button>Comprar</button>
+        </div>
       </div>
       <div className='contato'>
         <div className='card'>
