@@ -11,10 +11,7 @@ function App() {
           <img src={logo} alt='logo'></img>
           <h3>PlantShop</h3>
         </div>
-        <div className='compra'>
-          <p>Compras</p>
-          <img src={carrinho} alt='carrinho'></img>
-        </div>
+        <img src={carrinho} alt='carrinho'></img>
       </div>
       <div className='banner'>
         <h1>Bem Vindo ao PlantShop</h1>
