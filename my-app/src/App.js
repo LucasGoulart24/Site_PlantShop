@@ -1,6 +1,10 @@
 import logo from './Img/logo.png';
-import carrinho from './Img/carrinho.png';
 import planta from './Img/planta_monstera.jpeg';
+import { FaShoppingCart } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 import './App.css';
 
 function App() {
@@ -11,7 +15,7 @@ function App() {
           <img src={logo} alt='logo'></img>
           <h3>PlantShop</h3>
         </div>
-        <img src={carrinho} alt='carrinho'></img>
+        <FaShoppingCart id='Icone'/>
       </div>
       <div className='banner'>
         <h1>Bem Vindo ao PlantShop</h1>
@@ -107,6 +111,12 @@ function App() {
       </div>
       <div className='copyright'>
         <h3>&copy;2025 - PlantShop</h3>
+        <div className='Social'>
+          <FaFacebookF id='rede'/>
+          <FaInstagram id='rede'/>
+          <FaXTwitter id='rede'/>
+          <FaYoutube id='rede'/>
+        </div>
       </div>
     </div>
   );
